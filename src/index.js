@@ -1,3 +1,5 @@
+import "./sass/main.scss";
+
 const cat = {
   talk: "meow meow negga",
   walk() {

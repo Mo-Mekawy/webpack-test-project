@@ -1,0 +1,16 @@
+$main-clr: white;
+
+:root {
+  --main-bg: #333;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-size: 2rem;
+  color: $main-clr;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
