@@ -1,0 +1,27 @@
+:root {
+  --section-spacing: 7rem;
+  --secondary-bg-clr: rgba(0, 199, 252, 0.3);
+  --main-ft-clr: #fefbfc;
+}
+
+$body-clr: white;
+$body-bg: #333;
+
+body {
+  background-color: $body-bg;
+  color: $body-clr;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.landing-img {
+  margin: var(--section-spacing);
+  .img-fluid {
+    width: 100%;
+    object-fit: cover;
+  }
+}
