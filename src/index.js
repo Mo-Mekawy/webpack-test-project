@@ -1,8 +1,12 @@
-const moew = {
+const cat = {
   talk: "meow meow negga",
-  walk(txt) {
-    console.log("walking", txt);
+  walk() {
+    console.log("walking", this.talk);
   },
 };
 
-moew.walk(moew.talk);
+cat.walk();
+
+const dog = { ...cat, talk: "huff huff negga" };
+
+dog.walk();
